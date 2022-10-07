@@ -2,13 +2,52 @@
 
 body {
     background-color: teal;
+    
   }
   h1 {
     color: black;
+    text-align: center;
   }
   h2 {
     color: black; 
+    text-align: center;
+  }
+  h3 {
+    color: black; 
+    text-align: center;
   }
   p {
     color: white;
+    text-align: center;
   }
+  button { 
+    /*this is the styling for the buttons*/
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    /*here i change the cursur when you hover the button*/
+    cursor: crosshair;
+    background-color: black;
+    /*this adds a shadow*/
+    box-shadow: 5px 10px 8px #322f2f;
+    
+  }
+  button:hover{
+    /*I made it so that the color of the button changes when you hover over it*/
+    background-color:#bc8ec2;
+    
+  }
+  img{
+    /*IMG stylng*/
+    box-shadow: 5px 10px 8px #322f2f;
+  }
+  img:hover {
+    /*makes images bigger if you hover*/
+    transform: scale(1.3);
+    }
